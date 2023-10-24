@@ -1,0 +1,74 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #e3d157;
+    box-shadow: black 0 1px 1.5rem;
+}
+.webrand {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    /*max-width: 100vw;*/
+    /*max-height: 100vh;*/
+    width: 100vw;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    height: 100vh;
+    background-color: #e3e2de;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+}
+.article {
+    word-break: break-word;
+}
+.title-box {
+    display: flex;
+    gap: 0.5rem;
+}
+.title1 {
+    color: #726944;
+    font-weight: bold;
+    font-size: 40px;
+}
+.title2 {
+    color: #a28a24;
+    font-weight: bold;
+    font-size: 40px;
+}
+.profile {
+    width: 300px;
+    border-radius: 50%;
+    outline: white solid 0.5rem;
+    filter: drop-shadow(4px 5px 2rem rgba(0, 0, 0, 0.4));
+}
+.footer {
+    max-width: 100vw;
+    width: 100%;
+    background-color: #e5cb1d;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+.footer > p {
+    text-align: center;
+    color: white;
+}
